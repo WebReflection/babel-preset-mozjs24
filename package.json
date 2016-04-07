@@ -1,0 +1,27 @@
+{
+  "name": "babel-preset-mozjs24",
+  "version": "0.0.0",
+  "description": "Babel preset for GJS",
+  "author": "Andrea Giammarchi <andrea.giammarchi@gmail.com>",
+  "homepage": "https://github.com/WebReflection/babel-preset-mozjs24",
+  "license": "MIT",
+  "repository": "https://github.com/WebReflection/babel-preset-mozjs24",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-transform-es2015-template-literals": "^6.6.0",
+    "babel-plugin-transform-es2015-literals": "^6.3.13",
+    "babel-plugin-transform-es2015-function-name": "^6.3.13",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
+    "babel-plugin-transform-es2015-classes": "^6.6.0",
+    "babel-plugin-transform-es2015-object-super": "^6.3.13",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.3.13",
+    "babel-plugin-transform-es2015-computed-properties": "^6.3.13",
+    "babel-plugin-transform-es2015-duplicate-keys": "^6.6.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.3.13",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.3.13",
+    "babel-plugin-transform-es2015-parameters": "^6.6.0"
+  },
+  "devDependencies": {
+    "babel-helper-transform-fixture-test-runner": "^6.3.13"
+  }
+}
